@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.oussama.taxis.Login1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.oussama.taxis.Login"
+        android:background="#111010">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:background="@drawable/logotax"
+            android:layout_marginBottom="370dp"
+            android:contentDescription=""
+            android:layout_alignParentTop="true" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:background="#111010"
+            android:id="@+id/linearLayout"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="236dp">
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="18dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="25dp"
+                android:drawableLeft="@drawable/ic_action_user"
+                android:hint="Email" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/editText7"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:hint="Mot de passe"
+                android:drawableLeft="@drawable/ic_action_name"
+                android:layout_marginTop="18dp"
+                android:layout_margin="18dp" />
+
+            <Button
+                android:layout_width="245dp"
+                android:layout_height="50dp"
+                android:text="Se connecter"
+                android:id="@+id/busumit"
+                android:background="@drawable/button"
+                style="@style/ButtonText"
+
+
+                android:layout_below="@+id/imageView2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_margin="18dp"
+                android:layout_marginTop="18dp"
+                android:onClick="click1"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="____________Ou_____________"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="18dp"
+                android:layout_margin="18dp" />
+
+            <Button
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Créer nouveau compte"
+                android:id="@+id/button"
+                android:background="@drawable/button"
+                android:onClick="click"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp" />
+
+            <include layout="@layout/content_login1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:layout_gravity="bottom|end"
+            android:src="@drawable/ic_mic_none_24dp"
+            android:tint="#ffffff"
+            android:layout_alignTop="@+id/imageView2"
+            app:backgroundTint="#fb9403"
+            android:layout_alignRight="@+id/imageView2"
+            android:layout_marginTop="432dp" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppBarOverlay">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "184813033037",
+    "firebase_url": "https://taxis-28c94.firebaseio.com",
+    "project_id": "taxis-28c94",
+    "storage_bucket": "taxis-28c94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184813033037:android:9d5ca7e54b852f3baaee04",
+        "android_client_info": {
+          "package_name": "com.example.oussama.taxis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184813033037-hbiajgu7fj5a80fgttdilf0hrpt8ahel.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.oussama.taxis",
+            "certificate_hash": "9fcd26a41d952c6d65224001883b2f144bb9f3fc"
+          }
+        },
+        {
+          "client_id": "184813033037-n8rtj65k5st18vsltgb8b0ao7svvgdgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqUq_Ni7m4yv3qs4TGm9dUNvz6yTMt4vg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184813033037-n8rtj65k5st18vsltgb8b0ao7svvgdgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
